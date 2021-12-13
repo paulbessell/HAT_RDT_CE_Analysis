@@ -38,7 +38,7 @@ runModelE <- function(mobile = FALSE, catt = FALSE, cattT = FALSE, participant =
   tPresent <- ifelse(mobile, presentM * daysSM, presentF * daysSF)
   pStage2 <- ifelse(mobile, pS2M, pS2F)
   # Define the prevalence
-  if(is.na(pprev))  prev <- ifelse(mobile, getPrevM(), getPrevF())
+  if(is.na(pprev))  prev <- ifelse(mobile, getPrevM, getPrevF)
   if(!is.na(pprev))  prev <- pprev
   
   # Screening sensitivity
