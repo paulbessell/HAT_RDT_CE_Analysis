@@ -52,7 +52,7 @@ maectse <- 0.7833
 getPrevM <- 0.00817
 
 # Fixed health facilities
-getPrevF <- 0.176
+getPrevF <- 0.0176
 
 # Staging -----------------------------------------------------------------
 #== Poportion stage 2 - fixed health facilities
